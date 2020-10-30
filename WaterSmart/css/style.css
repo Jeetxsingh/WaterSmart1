@@ -1,0 +1,125 @@
+/*Document Body*/
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+/*Hover Effect for Href Attribute*/
+a {
+    color: #20597b;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+/*Background color*/
+body {
+    background-color: white;
+  }
+
+  /*Main Body Paragraphs*/
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: grey;
+
+}
+
+/*Header 1*/
+h1 {
+    font-size: 70px;
+}
+/*Header 2*/
+h2 {
+  text-align: center;
+}
+
+/* The hero image */
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1523216046600-7ff1d205feb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+height: 100%;
+
+/* Position of images to help scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Banner Image Text */
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+ /*Transparent Sections */
+div.background {
+  background: url(https://images.unsplash.com/photo-1551158025-b74e9d4f3617?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
+  border: 4px solid transparent;
+  }
+  
+div.background1 {
+  background: url(https://images.unsplash.com/photo-1551158025-b74e9d4f3617?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
+  border: 4px solid transparent;
+  }
+
+  div.transbox {
+  margin: 110px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  opacity: 0.7;
+  }
+  
+  div.transbox p {
+    margin: 3%;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  /*image containers  */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*Horizontal line indicating split between sections */
+hr {
+  border-top: 8px solid red;
+  color: #333;
+}
+/*Card displays */
+.wrap{
+  width:1000px;
+  margin:auto;
+  margin-top:100px;
+}
+.card{
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.6);
+  transition:0.4s;
+  width:300px;
+  background:#fff;
+  text-align:center;
+  font-size:16px;
+  font-family:sans-serif;
+  float:left;
+  margin:10px;
+}
+.card:hover{
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+}
+.container{
+  padding:2px 16px;
+}
+
